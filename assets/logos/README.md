@@ -24,7 +24,7 @@ All logos follow this pattern: `landrise-logo-{variant}-{background}.{extension}
 ### File Structure
 
 ```
-organized/
+logos/
 ├── svg/                           # Scalable vector graphics
 │   ├── landrise-logo-main.svg
 │   ├── landrise-logo-main-current.svg
@@ -46,13 +46,15 @@ organized/
 │   ├── landrise-logo-white-transparent.webp
 │   ├── landrise-logo-dark-theme.webp
 │   └── landrise-logo-light-theme.webp
-└── original/                      # Original design files
-    ├── landrise-logo-original-v1.svg
-    ├── landrise-logo-original-color.svg
-    ├── landrise-logo-original-monochrome-transparent.png
-    ├── landrise-logo-original-monochrome-white.png
-    ├── landrise-logo-original-color-transparent.png
-    └── landrise-logo-original-color-white.png
+├── original/                      # Original design files
+│   ├── landrise-logo-original-v1.svg
+│   ├── landrise-logo-original-color.svg
+│   ├── landrise-logo-original-monochrome-transparent.png
+│   ├── landrise-logo-original-monochrome-white.png
+│   ├── landrise-logo-original-color-transparent.png
+│   └── landrise-logo-original-color-white.png
+├── README.md                      # This documentation file
+└── QUICK-REFERENCE.md             # Developer quick reference guide
 ```
 
 ## Usage Guidelines

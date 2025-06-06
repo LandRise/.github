@@ -7,11 +7,11 @@
 <!-- Main logo for websites -->
 <img src="assets/logos/svg/landrise-logo-main.svg" alt="LandRise Logo" />
 
-<!-- For dark themes/backgrounds -->
-<img src="assets/logos/svg/landrise-logo-white-transparent.svg" alt="LandRise Logo" />
+<!-- For dark themes/backgrounds (PNG version) -->
+<img src="assets/logos/png/landrise-logo-white-transparent.png" alt="LandRise Logo" />
 
-<!-- For light themes/backgrounds -->
-<img src="assets/logos/svg/landrise-logo-black-transparent.svg" alt="LandRise Logo" />
+<!-- For light themes/backgrounds (PNG version) -->
+<img src="assets/logos/png/landrise-logo-black-transparent.png" alt="LandRise Logo" />
 
 <!-- WebP for better performance -->
 <picture>
@@ -29,12 +29,12 @@
 
 /* Dark theme */
 .logo-dark {
-  background-image: url('assets/logos/svg/landrise-logo-white-transparent.svg');
+  background-image: url('assets/logos/png/landrise-logo-white-transparent.png');
 }
 
 /* Light theme */
 .logo-light {
-  background-image: url('assets/logos/svg/landrise-logo-black-transparent.svg');
+  background-image: url('assets/logos/png/landrise-logo-black-transparent.png');
 }
 ```
 
@@ -60,7 +60,7 @@ import logoPng from 'assets/logos/png/landrise-logo-color-transparent.png';
 | Use Case | Recommended File |
 |----------|------------------|
 | Website header | `svg/landrise-logo-main.svg` |
-| Dark website header | `svg/landrise-logo-white-transparent.svg` |
+| Dark website header | `png/landrise-logo-white-transparent.png` |
 | Social media profile | `png/landrise-logo-color-white.png` |
 | Email signature | `png/landrise-logo-color-transparent.png` |
 | Business cards | `original/landrise-logo-original-color.svg` |
